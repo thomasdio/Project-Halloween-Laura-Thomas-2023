@@ -15,6 +15,8 @@
 
     <style>
 
+@import url('http://fonts.cdnfonts.com/css/melted-monster');
+
 * {
     box-sizing: border-box;
     font: inherit;
@@ -45,26 +47,9 @@ header {
 
 .navigation {
     flex: 1;
-    margin-left: 40px;
-    border-bottom: solid 1px;
-    
+    margin-left: 40px;   
 }
 
-.navigation--item {
-    text-decoration: none;
-    font-weight: 600;
-    color: chocolate;
-    margin-left: 24px;
-}
-
-.navigation--item:hover {
-    color: white;
-    cursor: pointer;
-}
-
-.naviation--item:first-child {
-    margin-left: 0;
-}
 
 .navigation--button {
     border: none;
@@ -81,17 +66,17 @@ i{
 }
 
 .content {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    transition: transform 1s, scale 1s;
+    transition: scale 1s;
+    font-family: 'Melted Monster', sans-serif;
 }
 
 .content:hover{
-    transform: translate(0px, -100px);
-    scale: 1.2;
+    scale: 1.3;
 }
 
     </style>
@@ -99,17 +84,12 @@ i{
     <div id="container">
       <header>
         <button class="navigation--button" onclick="window.location.href = 'file:///C:/Users/thoma/Documents/Eval/Project-Halloween-Laura-Thomas-2023/index.html';"><i class="fa fa-home"></i>Home</button>
-        <nav class="navigation">
-          <ul>
-            <a class="navigation--item" href="French_Happy_Halloween.html">French</a>
-          </ul>
-        </nav>
+
       </header>
 
       <div class="content">
-        <p>↑ ↑ ↑</p>
         <p>
-            CHOOSE YOUR LANGUAGE ON THE TOP
+           JOYEUX HALLOWEEN
         </p>
       </div>
 
