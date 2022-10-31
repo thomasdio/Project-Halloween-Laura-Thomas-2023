@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>HOME HALLOWEEN</title>
+  </head>
+  <body>
+
+    <style>
+
+* {
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;    
+    color: chocolate;    
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#container {
+    max-width: 1200px;
+    padding: 24px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    flex: 1;
+    margin-left: 40px;
+    border-bottom: solid 1px;
+    
+}
+
+.navigation--item {
+    text-decoration: none;
+    font-weight: 600;
+    color: chocolate;
+    margin-left: 24px;
+}
+
+.navigation--item:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.naviation--item:first-child {
+    margin-left: 0;
+}
+
+.navigation--button {
+    border: none;
+    background: chocolate;
+    border-radius: 50px;
+    padding: 10px 36px;
+    color: black;
+    font-weight: bold;
+}
+
+i{
+
+    padding-right: 5px;
+}
+
+.content {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: transform 1s, scale 1s;
+}
+
+.content:hover{
+    transform: translate(0px, -100px);
+    scale: 1.2;
+}
+
+    </style>
+
+    <div id="container">
+      <header>
+        <button class="navigation--button" onclick="window.location.href = 'file:///C:/Users/thoma/Documents/Eval/Project-Halloween-Laura-Thomas-2023/index.html';"><i class="fa fa-home"></i>Home</button>
+        <nav class="navigation">
+          <ul>
+            
+          </ul>
+        </nav>
+      </header>
+
+      <div class="content">
+        <p>↑ ↑ ↑</p>
+        <p>
+            CHOOSE YOUR LANGUAGE ON THE TOP
+        </p>
+      </div>
+
+      <footer>
+
+      </footer>
+    </div>
+  </body>
+</html>
